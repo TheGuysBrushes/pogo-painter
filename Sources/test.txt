@@ -1,0 +1,5 @@
+Debut:
+Partie démarrée, temps : 30
+tps restant : 30
+Tour : 1
+Partie terminée

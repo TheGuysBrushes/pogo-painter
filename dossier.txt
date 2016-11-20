@@ -1,0 +1,22 @@
+// change la couleur de la case d'où vient le joueur (il faut donc quitter la case pour la colorier)
+on a ensuite choise de changer la couleur de la case pour que le nombre de points du joueur soit égal au nombre de cases de sa couleur, dont la case où il se trouve.
+
+
+Faut-il faire des fonction "accesseurs" pour les joueurs ( get_ligne, get_colonne) pour simplifier et alléger le code ?
+
+Comment mettre à jour l'affichage toutes les 0.5 secondes ?
+-> le pere recoit un input et attend un message du fils en meme temps. Selon le message, il envoi l'input ou recoit et affiche le plateau
+
+
+si la commande est correcte, on n'a pas besoin d'en demander une nouvelle, sinon il faut redemander un commande à l'utilisateur
+
+
+
+## Règles : 
+- On peut choisir n'importe quelle taille de plateau meme si cela pose probleme lors l'affichage ou des incohérences (plusieurs joueurs sur la même case, c'est a l'utilisateur de choisir des valeurs ni trop grandes ni trop petites
+- de plus la taille de la fenêtre n'est pas modulable selon la taille du plateau
+
+
+## TODO:
+ + prise en compte nb joueurs reels	
+ + transmettre_input_lock(Input* input, int desc_write){
